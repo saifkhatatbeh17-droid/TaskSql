@@ -24,8 +24,7 @@ create table employees (
     fullname varchar(100) not null,
     email varchar(100) unique,
     salary decimal(10,2),
-    departmentid int,
-    foreign key (departmentid) references departments(departmentid)
+    departmentid int
 );
 
 -- task 2.3
