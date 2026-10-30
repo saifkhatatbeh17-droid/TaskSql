@@ -1,4 +1,4 @@
-use techworldhradvanceddb;
+use TechWorldHRDB;
 
 -- base tables from task 1
 create table departments (

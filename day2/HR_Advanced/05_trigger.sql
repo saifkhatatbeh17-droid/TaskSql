@@ -1,5 +1,5 @@
 -- task 7.6
--- run separately in techworldhradvanceddb
+-- run separately in TechWorldHRDB
 create trigger tr_EmployeeDelete
 on employees
 after delete

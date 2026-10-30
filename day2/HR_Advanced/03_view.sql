@@ -1,5 +1,5 @@
 -- task 7.4
--- run separately in techworldhradvanceddb
+-- run separately in TechWorldHRDB
 create view vw_EmployeeDetails
 as
 select employees.employeeid, employees.fullname,

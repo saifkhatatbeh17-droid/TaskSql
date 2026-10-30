@@ -1,5 +1,5 @@
 -- task 7.5
--- run separately in techworldhradvanceddb
+-- run separately in TechWorldHRDB
 create procedure sp_GetEmployeesByDepartment
     @deptid int
 as

@@ -1,4 +1,4 @@
-use techworldhradvanceddb;
+use TechWorldHRDB;
 
 -- task 6.1
 select employees.fullname, employees.salary, departments.departmentname
