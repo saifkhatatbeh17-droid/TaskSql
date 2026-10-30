@@ -1,10 +1,9 @@
--- day2 task
 -- CourseHub master practical task. Run once on a new database.
 USE master;
 GO
-CREATE DATABASE CourseHubDB_day2;
+CREATE DATABASE CourseHubDB;
 GO
-USE CourseHubDB_day2;
+USE CourseHubDB;
 GO
 SET XACT_ABORT ON;
 BEGIN TRANSACTION;
@@ -139,4 +138,3 @@ GO
 SELECT * FROM dbo.vw_StudentAcademicDetails;
 EXEC dbo.sp_GetStudentsByDepartment @DeptID=1;
 GO
-
